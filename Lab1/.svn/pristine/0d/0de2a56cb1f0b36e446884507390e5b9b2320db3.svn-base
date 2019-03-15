@@ -1,0 +1,34 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int charToInt(char c){
+
+	int intC = int(c)-48;
+       return intC;	
+
+}
+
+int main(int argc, char *argv[]){
+	
+	int a = charToInt('1');
+	cout << a << endl;
+//	cout << int('1') << "is the ascii value of 1" ;
+	//string line = " ";
+	//fstream obj;
+	//obj.open(argv[1]);
+	
+	//getline(obj,line);
+	//cout << line << '\n';
+	//getline(obj,line);
+	//cout << line << '\n';
+
+	//obj.close();
+	
+	//cout << "hello is this actually working?";
+	return 0;
+	
+}
+

@@ -1,0 +1,26 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int printByCharacter(char* dimacsFile){
+	fstream readDimacs;
+	char c;
+	readDimacs.open(dimacsFile);
+
+	while(readDimacs.get(c)){
+		if(c == '\n'){
+			break;
+		}
+		cout << c << " ";
+	}
+		 
+	return 0;
+}
+
+int main(int argc, char* argv[])
+{
+	printByCharacter(argv[1]);
+	return 0;
+
+}

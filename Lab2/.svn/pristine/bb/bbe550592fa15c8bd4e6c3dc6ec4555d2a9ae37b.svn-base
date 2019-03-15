@@ -1,0 +1,7 @@
+trust : trust.cpp
+	g++ trust.cpp -o trust
+
+run: trust
+
+	./trust < 6.txt
+	

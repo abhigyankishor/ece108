@@ -1,0 +1,10 @@
+trust : trust.cpp
+	g++ trust.cpp -o trust
+
+run: trust
+	./trust < 1.txt
+	./trust < 2.txt
+	./trust < 3.txt
+	./trust < 4.txt
+	./trust < 5.txt
+	./trust < 7.txt
