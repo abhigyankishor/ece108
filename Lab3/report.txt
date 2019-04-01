@@ -1,0 +1,9 @@
+My program read the file and sorts it using a linked list. I then generate an
+array and destroy the linked list. The algorithms generate random numbers against
+the required index of the median.
+
+Based on the results, clearly algorithm 2 seems to find the median quicker.
+That is because it gets rid of unwanted values for further iterations.
+
+Both the dev/urandom and the rand() function take similar attempts to locate the
+median.
